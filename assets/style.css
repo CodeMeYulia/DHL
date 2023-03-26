@@ -1,5 +1,5 @@
 *{
-    border: 1px dashed rgb(73, 73, 73);
+    /* border: 1px dashed rgb(73, 73, 73); */
 }
 .wrapper{
     max-width: 100%;
@@ -19,14 +19,13 @@ justify-content: space-between;
 }
 
 .header__logo{
-    background: #ff7300;
     width: 7%;
 }
 
 .header__signblock{
     /* background: #d1cfc4; */
-    max-width: 50%;
-    justify-content: space-around;
+    max-width: 100%;
+    justify-content: space-between;
     display: flex;
     align-items: center;
 }
@@ -34,23 +33,29 @@ justify-content: space-between;
 .header__signblock_language{
     /* background: #7eda89; */
     display: flex;
-    max-width: 50%;
+    width: 40%;
+    font-size: 1em;
 }
 
 .header__signblock_sign{
     /* background: #7ec6da; */
     display: flex;
-    width: 50%;
+    width: 60%;
 }
 
 .signblock__searching{
-    min-width: 50%;
+    display: flex;
+    align-items: center;
+    width: 250px;
     background: white;
-    width: 15%;
+    min-width: 15%;
+    margin: 20px auto;
+    justify-content: space-around;
 }
 
 .sign-up{
     color: red;
+    background: none;
     
 }
 .sign-in{
@@ -59,7 +64,8 @@ justify-content: space-between;
 }
 
 button{
-    width: 5vw;
+    min-width: 5vw;
     border-radius: 4px;
     margin: 20px auto;
+    border: none;
 }
