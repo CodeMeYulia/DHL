@@ -8,13 +8,13 @@
 .header__container{
     max-width: 100%;
     background: #FFCC00;
-    min-height: 70px;
-   
+    min-height: 50px;
+    margin: 0;
 }
 
 .header__box{
 display: flex;
-margin: 10px 60px;
+margin: 0 60px 2px 60px;
 justify-content: space-between;
 }
 
@@ -54,12 +54,11 @@ justify-content: space-between;
 }
 
 .sign-up{
-    color: red;
+    color: #C22A23;
     background: none;
-    
 }
 .sign-in{
-    background: red;
+    background: #C22A23;
     color: white;
 }
 
@@ -68,4 +67,134 @@ button{
     border-radius: 4px;
     margin: 20px auto;
     border: none;
+}
+
+.main__container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__topblock{
+    /* align-items: center; */
+    background: #FFCC00;
+    /* display: grid;
+    grid-row: 3fr 0.7fr 1fr 0.7fr; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    min-height: 700px;  
+    max-width: 100%;
+    padding: 0 50px;
+}
+
+.main__topblock_bigtitle{
+    /* background: blue; */
+    padding: 0 60px;
+    max-height: 320px; 
+    /* border: 1px dashed darkblue; */
+    margin: 0;
+}
+
+.main__topblock_h1{
+    font-size: 8em;
+    margin: 0;
+}
+
+.main__topblock_title{
+    /* border: 1px dashed darkblue; */
+    max-height: 100px;
+    padding: 10px auto;
+    color: #C22A23;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.main__topblock_h3{
+    /* border: 1px dashed darkblue; */
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 2em;
+    margin: 0;
+}
+
+.main__topblock_bigbutton{
+    max-width: 40%;
+    min-height: 90px;
+    background: #C22A23;
+    font-size: 2.5em;
+    color: white;
+    /* border: 1px dashed darkblue; */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.main__topblock_signInButton{
+    max-width: 40%;
+    min-height: 60px;
+    background: none;
+    color: black;
+    font-size: 2.5em;
+    /* border: 1px dashed darkblue; */
+    margin: 0 auto;
+}
+
+.main__topblock_help{
+    background: #C22A23;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.main__howWorks{
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed darkblue;
+    background: white;
+    min-height: 450px;
+}
+.main__howWorks_h2{
+    color: red;
+    text-align: center;
+    margin: 20px;
+}
+
+.main__howWorks_images{
+    border: 1px dashed darkblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 150px;
+}
+
+.main__howWorks_card{
+    border: 1px dashed darkblue;
+    width: 300px;
+    height: 320px;
+}
+
+.main__howWorks_title{
+    /* background: rgb(0, 255, 21); */
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.main__howWorks_img{
+    background: rgb(203, 14, 193);
+    width: 100%;
+    height: 280px;
+}
+
+.main__whyShop_title{
+    background: #FFCC00;
+    font-size: 10em;
+    text-align: center;
+    padding: 50px ;
+}
+
+.main__bannerblock_img{
+    width: 100%;
 }
