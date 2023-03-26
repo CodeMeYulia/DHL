@@ -1,0 +1,65 @@
+*{
+    border: 1px dashed rgb(73, 73, 73);
+}
+.wrapper{
+    max-width: 100%;
+}
+
+.header__container{
+    max-width: 100%;
+    background: #FFCC00;
+    min-height: 70px;
+   
+}
+
+.header__box{
+display: flex;
+margin: 10px 60px;
+justify-content: space-between;
+}
+
+.header__logo{
+    background: #ff7300;
+    width: 7%;
+}
+
+.header__signblock{
+    /* background: #d1cfc4; */
+    max-width: 50%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.header__signblock_language{
+    /* background: #7eda89; */
+    display: flex;
+    max-width: 50%;
+}
+
+.header__signblock_sign{
+    /* background: #7ec6da; */
+    display: flex;
+    width: 50%;
+}
+
+.signblock__searching{
+    min-width: 50%;
+    background: white;
+    width: 15%;
+}
+
+.sign-up{
+    color: red;
+    
+}
+.sign-in{
+    background: red;
+    color: white;
+}
+
+button{
+    width: 5vw;
+    border-radius: 4px;
+    margin: 20px auto;
+}
